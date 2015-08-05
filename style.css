@@ -10,7 +10,8 @@ html
 	font-size: 110%;
 }
 
-@media all and (min-width: 400px)
+/*@media all and (min-width: 400px)*/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
 {
 	html
 	{
@@ -56,7 +57,9 @@ body
 	position: relative;
 	height: 30vh;
 	width: 100%;
-	/*background-image: url(img/toluca-small.jpg);*/
+	/*background-image: url(img/toluca-small.jpg); aqui iria uno 
+	por defecto por si
+	no se encuentra la imagen*/
 	background-size: cover;
 	color: white;
 	padding: 4em;
